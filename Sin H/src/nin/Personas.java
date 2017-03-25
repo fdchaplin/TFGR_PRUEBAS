@@ -1,7 +1,14 @@
 package nin;
 
 public class Personas {
+	private String name;
 	public Personas() {
-		// TODO Auto-generated constructor stub
+		System.out.println(toString());
+	}
+	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "Nombre: "+name;
 	}
 }
