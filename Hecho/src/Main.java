@@ -6,6 +6,6 @@ public class Main {
 
 	}
 	public void recete(){
-		
+		System.out.println();
 	}
 }
